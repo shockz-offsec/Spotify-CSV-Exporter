@@ -1,0 +1,6 @@
+{
+    "DOWNLOAD_PATH": "C:\\path\\to\\your\\backups",
+    "DEBUG_PATH": "C:\\path\\to\\your\\logs",
+    "EMAIL":"your_spotify_email",
+    "PASSWORD":"your_password"
+}
