@@ -1,7 +1,9 @@
 
 # Spotify CSV Exporter
 
-This tool performs automated and organized exports of Spotify playlists and favorite songs in CSV format, leveraging the Sportify project.
+This tool automates the process of exporting Spotify playlists and favorite songs in an organized manner, generating CSV files. It leverages the Sportify project to accomplish this.
+
+Additionally, it provides the flexibility to seamlessly migrate to other platforms or re-import the playlists back into Spotify, ensuring a smooth transition.
 
 Can run on both Windows and Linux
 
