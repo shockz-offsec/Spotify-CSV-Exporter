@@ -56,6 +56,8 @@ To achieve this, you just need to open the CSV file of each playlist and extract
 
 This can be done by opening the CSV file with Excel and then navigating to Data => Text to Columns => Next => Delimited (Next) => Comma (Next) => Finish.
 
+![CSV](https://github.com/shockz-offsec/Spotify-CSV-Exporter/assets/67438760/ab0a0f1d-066d-4898-97a9-77e97b04b593)
+
 Next, simply copy all the Track URIs using Ctrl+C and paste them into a playlist in Spotify Desktop using Ctrl+V.
 
 
