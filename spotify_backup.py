@@ -109,12 +109,12 @@ if __name__ == "__main__":
 
     ## Global variables ##
     today = datetime.today().strftime('%d-%m-%Y')
-
+    log_dat = datetime.today().strftime('%Y-%m-%d')
     # Basic configuration of the registry
     if not os.path.exists(data["DEBUG_PATH"]):
         os.makedirs(data["DEBUG_PATH"], mode=0o777)
 
-    logging.basicConfig(filename=os.path.join(data["DEBUG_PATH"], f'debug-{today}.log'),
+    logging.basicConfig(filename=os.path.join(data["DEBUG_PATH"], f'debug-{log_dat}.log'),
                         level=logging.INFO,
                         format='%(asctime)s %(levelname)s %(message)s')
 
